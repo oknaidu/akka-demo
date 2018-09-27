@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry output="bin/main" kind="src" path="src">
+	<classpathentry kind="src" output="bin/main" path="src">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry sourcepath="C:/Users/priya/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor-typed_2.12/2.5.13/a6836fd4ffe37fef55e614e51d9efadd9b52205f/akka-actor-typed_2.12-2.5.13-sources.jar" kind="lib" path="C:/Users/priya/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor-typed_2.12/2.5.13/f4f4a0dc149f83d52f5edcb972b413815532163d/akka-actor-typed_2.12-2.5.13.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/priya/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.5.13/e53dd789872066778ca52b4a44f9cc68df58ae8e/akka-actor_2.12-2.5.13-sources.jar" kind="lib" path="C:/Users/priya/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.5.13/8138649154e4ba8eebb68f4e262971213b033ac6/akka-actor_2.12-2.5.13.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/priya/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/a33ce48278b9e3bbea8aed726e3c0abad3afadd/scala-java8-compat_2.12-0.8.0-sources.jar" kind="lib" path="C:/Users/priya/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/1e6f1e745bf6d3c34d1e2ab150653306069aaf34/scala-java8-compat_2.12-0.8.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/priya/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.6/1157d5760b985d87564aed6f783034d91b5c6a45/scala-library-2.12.6-sources.jar" kind="lib" path="C:/Users/priya/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.6/6bd975dd5ca2a50b94413b708389b892ae423181/scala-library-2.12.6.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/priya/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.2/a22dda7d62b800b297c1c59de90d48992d8119b1/config-1.3.2-sources.jar" kind="lib" path="C:/Users/priya/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.2/d6ac0ce079f114adce620f2360c92a70b2cb36dc/config-1.3.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="lib/akka-actor_2.12-2.5.13.jar"/>
+	<classpathentry kind="lib" path="lib/akka-actor-typed_2.12-2.5.13.jar"/>
+	<classpathentry kind="lib" path="lib/config-1.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/scala-java8-compat_2.12-0.8.0.jar"/>
+	<classpathentry kind="lib" path="lib/scala-library-2.12.6.jar"/>
+	<classpathentry kind="output" path="bin/default"/>
 </classpath>
